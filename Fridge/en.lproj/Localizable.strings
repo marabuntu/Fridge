@@ -1,0 +1,26 @@
+// Common
+"Cancel" = "Cancel";
+"Add" = "Add";
+
+// Product list
+"ProductList.Title" = "My Fridge";
+"ProductList.Expired" = "Expired";
+"ProductList.NotExpired" = "Ready for eat";
+"ProductList.Expired.Description" = "These products have expired";
+"ProductList.NotExpired.Description" = "These products have not yet expired";
+
+// Product details
+"Product.Name" = "Name";
+"Product.ExpirationDate" = "Expiration Date";
+"Product.Add" = "Add product";
+
+// Alerts
+"Alert.CancelAdding.Title" = "Cancel adding?";
+"Alert.CancelAdding.Description" = "Are you sure you want to cancel adding new product?";
+"Alert.CancelAdding.Button.KeepEditing" = "Keep editing";
+"Alert.CancelAdding.Button.CancelAdding" = "Cancel adding";
+
+"Alert.AddNewProduct.Title" = "Add new product";
+"Alert.AddNewProduct.Description" = "Select a new product adding option";
+"Alert.AddNewProduct.Button.ScanBarcode" = "Scan barcode";
+"Alert.AddNewProduct.Button.AddManually" = "Add manually";

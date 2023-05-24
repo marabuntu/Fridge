@@ -1,0 +1,26 @@
+// Common
+"Cancel" = "Отмена";
+"Add" = "Добавить";
+
+// Product list
+"ProductList.Title" = "iХолодос";
+"ProductList.Expired" = "Заэкспайрено";
+"ProductList.NotExpired" = "Можно потреблять";
+"ProductList.Expired.Description" = "Это есть нельзя";
+"ProductList.NotExpired.Description" = "Это есть можно";
+
+// Product details
+"Product.Name" = "Название";
+"Product.ExpirationDate" = "Годен до";
+"Product.Add" = "Добавить продукт";
+
+// Alerts
+"Alert.CancelAdding.Title" = "Отменить добавление?";
+"Alert.CancelAdding.Description" = "Уверены в отмене?";
+"Alert.CancelAdding.Button.KeepEditing" = "Продолжить редактирование";
+"Alert.CancelAdding.Button.CancelAdding" = "Отменить добавление";
+
+"Alert.AddNewProduct.Title" = "Добавление нового продукта";
+"Alert.AddNewProduct.Description" = "Как добавляем";
+"Alert.AddNewProduct.Button.ScanBarcode" = "Сканировать штрих-код";
+"Alert.AddNewProduct.Button.AddManually" = "Добавить ручками";

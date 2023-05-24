@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB34B5E1264032E200F02C1B /* FridgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB34B5E0264032E200F02C1B /* FridgeApp.swift */; };
+		DB34B5E3264032E200F02C1B /* ProductsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB34B5E2264032E200F02C1B /* ProductsListView.swift */; };
+		DB34B5E5264032E200F02C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB34B5E4264032E200F02C1B /* Assets.xcassets */; };
+		DB34B5E8264032E200F02C1B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB34B5E7264032E200F02C1B /* Preview Assets.xcassets */; };
+		DB34B5ED264032E200F02C1B /* Fridge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB34B5EB264032E200F02C1B /* Fridge.xcdatamodeld */; };
+		DB34B5FA264037D600F02C1B /* ProductsListView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB34B5F9264037D600F02C1B /* ProductsListView+ViewModel.swift */; };
+		DB34B6032640559A00F02C1B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB34B6022640559A00F02C1B /* Extensions.swift */; };
+		DB34B60B2641385700F02C1B /* ProductDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB34B60A2641385700F02C1B /* ProductDetails.swift */; };
+		DB34B60F2641813900F02C1B /* AddProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB34B60E2641813900F02C1B /* AddProductView.swift */; };
+		DBB081FD264FE6E200365D1A /* AddProductView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB081FC264FE6E200365D1A /* AddProductView+ViewModel.swift */; };
+		DBB08200264FED2400365D1A /* ProductDetails+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB081FF264FED2400365D1A /* ProductDetails+ViewModel.swift */; };
+		DBB08207264FFC0B00365D1A /* ProductListViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB08206264FFC0B00365D1A /* ProductListViewItem.swift */; };
+		DBB0820B264FFC5000365D1A /* ProductsListViewItem+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB0820A264FFC5000365D1A /* ProductsListViewItem+ViewModel.swift */; };
+		DBB08212264FFF6200365D1A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBB08214264FFF6200365D1A /* Localizable.strings */; };
+		DBF3B7E226429B3200D90F13 /* BarcodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3B7E126429B3200D90F13 /* BarcodeScanner.swift */; };
+		DBF3B7E62642D3B900D90F13 /* BarcodeScannerParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3B7E52642D3B900D90F13 /* BarcodeScannerParameters.swift */; };
+		DBF3B7E92642D3FD00D90F13 /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3B7E82642D3FD00D90F13 /* CameraViewModel.swift */; };
+		DBF3B7EE264BDD2D00D90F13 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3B7EC264BDD2D00D90F13 /* Product.swift */; };
+		DBF3B7F6264BE27700D90F13 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3B7F5264BE27700D90F13 /* CoreDataManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB34B5DD264032E100F02C1B /* Fridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB34B5E0264032E200F02C1B /* FridgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeApp.swift; sourceTree = "<group>"; };
+		DB34B5E2264032E200F02C1B /* ProductsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListView.swift; sourceTree = "<group>"; };
+		DB34B5E4264032E200F02C1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB34B5E7264032E200F02C1B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB34B5EC264032E200F02C1B /* Fridge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fridge.xcdatamodel; sourceTree = "<group>"; };
+		DB34B5EE264032E200F02C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB34B5F9264037D600F02C1B /* ProductsListView+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProductsListView+ViewModel.swift"; sourceTree = "<group>"; };
+		DB34B6022640559A00F02C1B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DB34B60A2641385700F02C1B /* ProductDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetails.swift; sourceTree = "<group>"; };
+		DB34B60E2641813900F02C1B /* AddProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductView.swift; sourceTree = "<group>"; };
+		DBB081FC264FE6E200365D1A /* AddProductView+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddProductView+ViewModel.swift"; sourceTree = "<group>"; };
+		DBB081FF264FED2400365D1A /* ProductDetails+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProductDetails+ViewModel.swift"; sourceTree = "<group>"; };
+		DBB08206264FFC0B00365D1A /* ProductListViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewItem.swift; sourceTree = "<group>"; };
+		DBB0820A264FFC5000365D1A /* ProductsListViewItem+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProductsListViewItem+ViewModel.swift"; sourceTree = "<group>"; };
+		DBB08213264FFF6200365D1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DBB082162650008400365D1A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DBF3B7E126429B3200D90F13 /* BarcodeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScanner.swift; sourceTree = "<group>"; };
+		DBF3B7E52642D3B900D90F13 /* BarcodeScannerParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerParameters.swift; sourceTree = "<group>"; };
+		DBF3B7E82642D3FD00D90F13 /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
+		DBF3B7EC264BDD2D00D90F13 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		DBF3B7F5264BE27700D90F13 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB34B5DA264032E100F02C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB34B5D4264032E100F02C1B = {
+			isa = PBXGroup;
+			children = (
+				DB34B5DF264032E100F02C1B /* Fridge */,
+				DB34B5DE264032E100F02C1B /* Products */,
+				EFBA5C4D3A0B56AEDE197C0B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		DB34B5DE264032E100F02C1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB34B5DD264032E100F02C1B /* Fridge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB34B5DF264032E100F02C1B /* Fridge */ = {
+			isa = PBXGroup;
+			children = (
+				DBF3B7F1264BDD4800D90F13 /* Model */,
+				DBF3B7E026429B0D00D90F13 /* Barcode scanner */,
+				DB34B60D2641810300F02C1B /* Add product */,
+				DB34B6092641380800F02C1B /* Product details */,
+				DB34B5E0264032E200F02C1B /* FridgeApp.swift */,
+				DBB08214264FFF6200365D1A /* Localizable.strings */,
+				DB34B6022640559A00F02C1B /* Extensions.swift */,
+				DB34B5F7264037AF00F02C1B /* Products list */,
+				DB34B5E4264032E200F02C1B /* Assets.xcassets */,
+				DB34B5EE264032E200F02C1B /* Info.plist */,
+				DB34B5EB264032E200F02C1B /* Fridge.xcdatamodeld */,
+				DB34B5E6264032E200F02C1B /* Preview Content */,
+			);
+			path = Fridge;
+			sourceTree = "<group>";
+		};
+		DB34B5E6264032E200F02C1B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DB34B5E7264032E200F02C1B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB34B5F7264037AF00F02C1B /* Products list */ = {
+			isa = PBXGroup;
+			children = (
+				DBB08205264FFBF300365D1A /* List Item */,
+				DB34B5E2264032E200F02C1B /* ProductsListView.swift */,
+				DB34B5F9264037D600F02C1B /* ProductsListView+ViewModel.swift */,
+			);
+			path = "Products list";
+			sourceTree = "<group>";
+		};
+		DB34B6092641380800F02C1B /* Product details */ = {
+			isa = PBXGroup;
+			children = (
+				DB34B60A2641385700F02C1B /* ProductDetails.swift */,
+				DBB081FF264FED2400365D1A /* ProductDetails+ViewModel.swift */,
+			);
+			path = "Product details";
+			sourceTree = "<group>";
+		};
+		DB34B60D2641810300F02C1B /* Add product */ = {
+			isa = PBXGroup;
+			children = (
+				DB34B60E2641813900F02C1B /* AddProductView.swift */,
+				DBB081FC264FE6E200365D1A /* AddProductView+ViewModel.swift */,
+			);
+			path = "Add product";
+			sourceTree = "<group>";
+		};
+		DBB08205264FFBF300365D1A /* List Item */ = {
+			isa = PBXGroup;
+			children = (
+				DBB08206264FFC0B00365D1A /* ProductListViewItem.swift */,
+				DBB0820A264FFC5000365D1A /* ProductsListViewItem+ViewModel.swift */,
+			);
+			path = "List Item";
+			sourceTree = "<group>";
+		};
+		DBF3B7E026429B0D00D90F13 /* Barcode scanner */ = {
+			isa = PBXGroup;
+			children = (
+				DBF3B7E126429B3200D90F13 /* BarcodeScanner.swift */,
+				DBF3B7E52642D3B900D90F13 /* BarcodeScannerParameters.swift */,
+				DBF3B7E82642D3FD00D90F13 /* CameraViewModel.swift */,
+			);
+			path = "Barcode scanner";
+			sourceTree = "<group>";
+		};
+		DBF3B7F1264BDD4800D90F13 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DBF3B7EC264BDD2D00D90F13 /* Product.swift */,
+				DBF3B7F5264BE27700D90F13 /* CoreDataManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EFBA5C4D3A0B56AEDE197C0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB34B5DC264032E100F02C1B /* Fridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB34B5F1264032E200F02C1B /* Build configuration list for PBXNativeTarget "Fridge" */;
+			buildPhases = (
+				DB34B5D9264032E100F02C1B /* Sources */,
+				DB34B5DA264032E100F02C1B /* Frameworks */,
+				DB34B5DB264032E100F02C1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fridge;
+			productName = Fridge;
+			productReference = DB34B5DD264032E100F02C1B /* Fridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB34B5D5264032E100F02C1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					DB34B5DC264032E100F02C1B = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = DB34B5D8264032E100F02C1B /* Build configuration list for PBXProject "Fridge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = DB34B5D4264032E100F02C1B;
+			productRefGroup = DB34B5DE264032E100F02C1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB34B5DC264032E100F02C1B /* Fridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB34B5DB264032E100F02C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB34B5E8264032E200F02C1B /* Preview Assets.xcassets in Resources */,
+				DB34B5E5264032E200F02C1B /* Assets.xcassets in Resources */,
+				DBB08212264FFF6200365D1A /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB34B5D9264032E100F02C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB34B5ED264032E200F02C1B /* Fridge.xcdatamodeld in Sources */,
+				DB34B5FA264037D600F02C1B /* ProductsListView+ViewModel.swift in Sources */,
+				DB34B60F2641813900F02C1B /* AddProductView.swift in Sources */,
+				DB34B5E3264032E200F02C1B /* ProductsListView.swift in Sources */,
+				DBF3B7E92642D3FD00D90F13 /* CameraViewModel.swift in Sources */,
+				DBB0820B264FFC5000365D1A /* ProductsListViewItem+ViewModel.swift in Sources */,
+				DBF3B7E62642D3B900D90F13 /* BarcodeScannerParameters.swift in Sources */,
+				DBB08200264FED2400365D1A /* ProductDetails+ViewModel.swift in Sources */,
+				DBB081FD264FE6E200365D1A /* AddProductView+ViewModel.swift in Sources */,
+				DBF3B7EE264BDD2D00D90F13 /* Product.swift in Sources */,
+				DB34B5E1264032E200F02C1B /* FridgeApp.swift in Sources */,
+				DBB08207264FFC0B00365D1A /* ProductListViewItem.swift in Sources */,
+				DB34B60B2641385700F02C1B /* ProductDetails.swift in Sources */,
+				DB34B6032640559A00F02C1B /* Extensions.swift in Sources */,
+				DBF3B7F6264BE27700D90F13 /* CoreDataManager.swift in Sources */,
+				DBF3B7E226429B3200D90F13 /* BarcodeScanner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DBB08214264FFF6200365D1A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBB08213264FFF6200365D1A /* en */,
+				DBB082162650008400365D1A /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB34B5EF264032E200F02C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB34B5F0264032E200F02C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB34B5F2264032E200F02C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Fridge/Preview Content\"";
+				DEVELOPMENT_TEAM = 58635TG9ZY;
+				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
+				INFOPLIST_FILE = Fridge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myorg.myFridge.Fridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Debug;
+		};
+		DB34B5F3264032E200F02C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Fridge/Preview Content\"";
+				DEVELOPMENT_TEAM = 58635TG9ZY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Fridge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myorg.myFridge.Fridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB34B5D8264032E100F02C1B /* Build configuration list for PBXProject "Fridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB34B5EF264032E200F02C1B /* Debug */,
+				DB34B5F0264032E200F02C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB34B5F1264032E200F02C1B /* Build configuration list for PBXNativeTarget "Fridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB34B5F2264032E200F02C1B /* Debug */,
+				DB34B5F3264032E200F02C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DB34B5EB264032E200F02C1B /* Fridge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DB34B5EC264032E200F02C1B /* Fridge.xcdatamodel */,
+			);
+			currentVersion = DB34B5EC264032E200F02C1B /* Fridge.xcdatamodel */;
+			path = Fridge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DB34B5D5264032E100F02C1B /* Project object */;
+}
